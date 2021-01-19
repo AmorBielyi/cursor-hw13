@@ -4,26 +4,26 @@ public class Airplane {
     private final String id;
     private final String crew;
 
-    public Airplane(int airplanesCount, int passengersCount, String id, String crew){
+    public Airplane(int airplanesCount, int passengersCount, String id, String crew) {
         this.airplanesCount = airplanesCount;
         this.passengersCount = passengersCount;
         this.id = id;
         this.crew = crew;
     }
 
-    public int getAirplanesCount(){
+    public int getAirplanesCount() {
         return airplanesCount;
     }
 
-    public int getPassengersCount(){
+    public int getPassengersCount() {
         return passengersCount;
     }
 
-    public String getID(){
+    public String getID() {
         return id;
     }
 
-    public String getCrew(){
+    public String getCrew() {
         return crew;
     }
 
